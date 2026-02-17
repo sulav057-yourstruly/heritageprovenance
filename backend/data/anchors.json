@@ -1,0 +1,78 @@
+[
+  {
+    "batch_id": "c825730c-f9de-4397-a551-b1a13c38b62c",
+    "merkle_root": "fd346ccb8073d2bc2242c2488ac613a05773148b0d5ccc1f57821e31a5dab1d6",
+    "anchored_at": "2026-01-11T11:34:07.329253",
+    "event_count": 2,
+    "event_hashes": [
+      "20809a5217b07bfd508077cb5c0b3553034d5fd95e6aeeafcb93235911fb6f00",
+      "0cde386cfa02cf3112b1014bafa34bdf45b5759d3f0682872c5c18f96d0a9fe1"
+    ]
+  },
+  {
+    "batch_id": "e29a8b4e-1499-4c23-8506-327d81304602",
+    "merkle_root": "161476817fe1e05e662f658000c0f39c617214d9bad0ae9fdbc53c5728e712fc",
+    "anchored_at": "2026-01-11T11:35:49.608226",
+    "event_count": 1,
+    "event_hashes": [
+      "161476817fe1e05e662f658000c0f39c617214d9bad0ae9fdbc53c5728e712fc"
+    ]
+  },
+  {
+    "batch_id": "d0a5d9ae-3ffa-4ad9-b68b-9240caeb4958",
+    "merkle_root": "98363161efc249de938457ab73364c6aa3692ffe344a0027a8403d2fa63e4685",
+    "anchored_at": "2026-01-11T11:45:00.890173",
+    "event_count": 2,
+    "event_hashes": [
+      "64c67978e1ae53276b449e30c6dd2d50ddb8f0750cbd3795ffb6b1718e085bfc",
+      "6da826f64b5383ad18758621de47e026a1f99ff3e1d34db4a96a0538e2e79f06"
+    ]
+  },
+  {
+    "batch_id": "22e51600-a899-417a-9c02-2552f4e0c379",
+    "merkle_root": "01e368e1d8db3248231f4f37011e15537a9eae6976b7d3e6830c71ad46ad2f29",
+    "anchored_at": "2026-01-11T11:53:17.825608",
+    "event_count": 1,
+    "event_hashes": [
+      "01e368e1d8db3248231f4f37011e15537a9eae6976b7d3e6830c71ad46ad2f29"
+    ]
+  },
+  {
+    "batch_id": "dd7029e9-a6f6-446a-a375-56de6d37de45",
+    "merkle_root": "2a4c8b0adf9d9a4ebf9c351ff2cadcb9984811ce97a4fdafb91e6e395e00c0a3",
+    "anchored_at": "2026-01-11T12:01:39.619654",
+    "event_count": 3,
+    "event_hashes": [
+      "10956f3b4deffa8e3f40166dff2e821fbbfb96728b72c2704716593f749d7aa0",
+      "14fd991429b13f4ec0bdb05b8ba98d5076c92cdbb978a261d7d16a9d465f5504",
+      "4712a092978ffcfecf96456cbd2138ae881541c474a81ae79e36543e23f4cc83"
+    ]
+  },
+  {
+    "batch_id": "b32c2c44-3bf8-4aac-a0d4-ad9b394feda5",
+    "merkle_root": "be2ff7debb4632c33c65d7a2253686093811c137b7af111da0865a80e848d0cb",
+    "anchored_at": "2026-01-11T12:05:05.323780",
+    "event_count": 1,
+    "event_hashes": [
+      "be2ff7debb4632c33c65d7a2253686093811c137b7af111da0865a80e848d0cb"
+    ]
+  },
+  {
+    "batch_id": "f23919ce-832e-426e-9e1f-d6eb160fbe7f",
+    "merkle_root": "2dd6b93fceeb4e1ed6f25bdd5e82ae789fe9158dc63cfe8d528f0e46d9d6e69a",
+    "anchored_at": "2026-01-11T12:05:56.074108",
+    "event_count": 1,
+    "event_hashes": [
+      "2dd6b93fceeb4e1ed6f25bdd5e82ae789fe9158dc63cfe8d528f0e46d9d6e69a"
+    ]
+  },
+  {
+    "batch_id": "7f950eb6-be2d-40c1-9927-762d4ac63afe",
+    "merkle_root": "0b95e2e7b4b3c17183e710469bffda709cfd0234dcb0b65eaf61a5c69a30963d",
+    "anchored_at": "2026-01-20T10:22:43.961188",
+    "event_count": 1,
+    "event_hashes": [
+      "0b95e2e7b4b3c17183e710469bffda709cfd0234dcb0b65eaf61a5c69a30963d"
+    ]
+  }
+]

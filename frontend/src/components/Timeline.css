@@ -1,0 +1,139 @@
+.timeline {
+  margin-top: 2rem;
+}
+
+.timeline h3 {
+  margin-bottom: 1.5rem;
+  color: var(--ctp-text);
+}
+
+.timeline-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--ctp-overlay0);
+}
+
+.timeline-container {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.marker-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 3px solid;
+  background-color: white;
+  z-index: 1;
+}
+
+.marker-dot.valid {
+  border-color: var(--ctp-green);
+  background-color: var(--ctp-green);
+}
+
+.marker-dot.invalid {
+  border-color: var(--ctp-red);
+  background-color: var(--ctp-red);
+}
+
+.timeline-line {
+  position: absolute;
+  top: 16px;
+  width: 2px;
+  height: calc(100% + 0.5rem);
+  background-color: var(--ctp-surface1);
+  z-index: 0;
+}
+
+.timeline-content {
+  flex: 1;
+  background-color: var(--ctp-surface0);
+  padding: 1rem;
+  border-radius: var(--ctp-radius);
+  border: 1px solid var(--ctp-surface1);
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.event-type {
+  font-weight: 600;
+  color: var(--ctp-text);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.event-time {
+  color: var(--ctp-subtext0);
+  font-size: 0.85rem;
+}
+
+.event-details {
+  margin: 0.75rem 0;
+}
+
+.event-details p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.event-details code {
+  background-color: var(--ctp-mantle);
+  color: var(--ctp-teal-light);
+  padding: 0.2rem 0.4rem;
+  border-radius: var(--ctp-radius-sm);
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.anchored-badge {
+  color: var(--ctp-green);
+  font-weight: 500;
+}
+
+.invalid-badge {
+  color: var(--ctp-red);
+  font-weight: 500;
+}
+
+.event-payload {
+  margin-top: 0.75rem;
+}
+
+.event-payload summary {
+  cursor: pointer;
+  color: var(--ctp-teal);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-payload pre {
+  background-color: var(--ctp-mantle);
+  color: var(--ctp-text);
+  padding: 0.75rem;
+  border-radius: var(--ctp-radius);
+  overflow-x: auto;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--ctp-surface1);
+}
+

@@ -1,0 +1,23 @@
+# Go
+*.exe
+*.out
+/bin/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Secrets
+*.key
+*.pem
+.env
+

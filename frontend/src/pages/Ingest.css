@@ -1,0 +1,138 @@
+.ingest-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: var(--ctp-text);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--ctp-subtext0);
+  font-size: 1rem;
+}
+
+.card {
+  background: var(--ctp-surface0);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: var(--ctp-radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ingest-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: var(--ctp-text);
+}
+
+.form-group input {
+  padding: 0.75rem;
+  background: var(--ctp-mantle);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: var(--ctp-radius);
+  font-size: 1rem;
+  color: var(--ctp-text);
+  transition: all 0.2s;
+}
+
+.form-group input::placeholder {
+  color: var(--ctp-overlay0);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--ctp-teal);
+  box-shadow: 0 0 0 3px rgba(17, 183, 197, 0.2);
+  background: var(--ctp-crust);
+}
+
+.form-group input[type="file"] {
+  padding: 0.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--ctp-teal);
+  color: var(--ctp-base);
+  font-weight: 600;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--ctp-teal-light);
+  box-shadow: 0 4px 12px rgba(17, 183, 197, 0.4);
+}
+
+.btn-primary:disabled {
+  background: var(--ctp-surface1);
+  color: var(--ctp-overlay0);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.alert {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.alert-error {
+  background-color: rgba(231, 130, 132, 0.15);
+  color: var(--ctp-red);
+  border-color: var(--ctp-red);
+}
+
+.alert-success {
+  background-color: rgba(166, 209, 137, 0.15);
+  color: var(--ctp-green);
+  border-color: var(--ctp-green);
+}
+
+.alert-success h3 {
+  margin-bottom: 1rem;
+  color: var(--ctp-green);
+  font-size: 1.2rem;
+}
+
+.alert-success p {
+  margin: 0.5rem 0;
+  font-family: 'Courier New', monospace;
+  word-break: break-all;
+  font-size: 0.9rem;
+  color: var(--ctp-subtext1);
+}
+
+.alert-success code {
+  background: var(--ctp-mantle);
+  color: var(--ctp-teal-light);
+}
+

@@ -1,0 +1,137 @@
+.verify-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.drop-zone {
+  border: 2px dashed var(--ctp-surface1);
+  border-radius: var(--ctp-radius-lg);
+  padding: 3rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 2rem 0;
+  background: var(--ctp-mantle);
+}
+
+.drop-zone.active {
+  border-color: var(--ctp-teal);
+  background-color: rgba(17, 183, 197, 0.1);
+}
+
+.drop-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: var(--ctp-subtext0);
+  font-size: 1.1rem;
+}
+
+.drop-icon, .file-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.file-name {
+  font-weight: 600;
+  color: var(--ctp-text);
+}
+
+.file-size {
+  font-size: 0.9rem;
+  color: var(--ctp-subtext0);
+}
+
+.verify-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 2rem;
+  background: var(--ctp-teal);
+  color: var(--ctp-base);
+  border: none;
+  border-radius: var(--ctp-radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.verify-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--ctp-teal-light);
+  box-shadow: 0 4px 12px rgba(17, 183, 197, 0.4);
+}
+
+.verify-button:disabled {
+  background: var(--ctp-surface1);
+  color: var(--ctp-overlay0);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.verification-report {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--ctp-surface0);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: var(--ctp-radius-lg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.verification-report h2 {
+  margin-bottom: 1rem;
+  color: var(--ctp-text);
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.status-item {
+  padding: 1rem;
+  border-radius: var(--ctp-radius);
+  background-color: var(--ctp-mantle);
+  border: 2px solid;
+}
+
+.status-item.pass {
+  border-color: var(--ctp-green);
+  background-color: rgba(166, 209, 137, 0.15);
+  color: var(--ctp-green);
+}
+
+.status-item.fail {
+  border-color: var(--ctp-red);
+  background-color: rgba(231, 130, 132, 0.15);
+  color: var(--ctp-red);
+}
+
+.status-item.warn {
+  border-color: var(--ctp-yellow);
+  background-color: rgba(229, 200, 144, 0.15);
+  color: var(--ctp-yellow);
+}
+
+.errors {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(231, 130, 132, 0.15);
+  border-radius: var(--ctp-radius);
+  border-left: 4px solid var(--ctp-red);
+}
+
+.errors h3 {
+  color: var(--ctp-red);
+  margin-bottom: 0.5rem;
+}
+
+.errors ul {
+  list-style-position: inside;
+  color: var(--ctp-red);
+}
+

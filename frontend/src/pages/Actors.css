@@ -1,0 +1,138 @@
+.actors-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: var(--ctp-text);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--ctp-subtext0);
+  font-size: 1rem;
+}
+
+.card {
+  background: var(--ctp-surface0);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: var(--ctp-radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: var(--ctp-text);
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  color: var(--ctp-subtext0);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.actor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.actor-form input {
+  padding: 0.75rem;
+  background: var(--ctp-mantle);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: var(--ctp-radius);
+  font-size: 1rem;
+  color: var(--ctp-text);
+  transition: all 0.2s;
+}
+
+.actor-form input::placeholder {
+  color: var(--ctp-overlay0);
+}
+
+.actor-form input:focus {
+  outline: none;
+  border-color: var(--ctp-teal);
+  box-shadow: 0 0 0 3px rgba(17, 183, 197, 0.2);
+  background: var(--ctp-crust);
+}
+
+.keypair-result {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: var(--ctp-mantle);
+  border-radius: var(--ctp-radius-lg);
+  border: 1px solid var(--ctp-surface1);
+}
+
+.key-display {
+  margin-bottom: 1.5rem;
+}
+
+.key-display:last-child {
+  margin-bottom: 0;
+}
+
+.key-display label {
+  display: block;
+  font-weight: 600;
+  color: var(--ctp-text);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.toggle-key-btn {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  background: var(--ctp-teal);
+  color: var(--ctp-base);
+  border: none;
+  border-radius: var(--ctp-radius-sm);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: 600;
+}
+
+.toggle-key-btn:hover {
+  background: var(--ctp-teal-light);
+}
+
+.key-value {
+  background: var(--ctp-mantle);
+  padding: 0.75rem;
+  border-radius: var(--ctp-radius);
+  border: 1px solid var(--ctp-surface1);
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  word-break: break-all;
+  color: var(--ctp-teal-light);
+}
+
+.private-key {
+  background: rgba(229, 200, 144, 0.15);
+  border-color: var(--ctp-yellow);
+  color: var(--ctp-yellow);
+}
+
+.info-box {
+  padding: 1rem;
+  background: rgba(17, 183, 197, 0.15);
+  border-left: 4px solid var(--ctp-teal);
+  border-radius: var(--ctp-radius);
+  color: var(--ctp-text);
+}
+
+.info-box strong {
+  color: var(--ctp-teal);
+}
+

@@ -1,0 +1,27 @@
+[project]
+name = "provenance-backend"
+version = "0.1.0"
+description = "Digital heritage provenance tracking system"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "python-multipart>=0.0.6",
+    "pydantic>=2.5.0",
+    "sqlalchemy>=2.0.0",
+    "cryptography>=41.0.0",
+    "pycryptodome>=3.19.0",
+    "python-jose[cryptography]>=3.3.0",
+    "bcrypt>=4.1.2",
+    "python-dotenv>=1.0.0",
+    "pillow>=10.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# Use find directive to discover packages with exclusions
+packages = {find = {where = ["."], exclude = ["data*", "scripts*", "venv*", "myenv*", "env*", "__pycache__*"]}}
+
